@@ -1,0 +1,1 @@
+{"naam":"Abishek","age":21,"class":13}

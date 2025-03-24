@@ -1,0 +1,13 @@
+{
+  "name": "nodelearn",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "abishek",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "abishek": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
