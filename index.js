@@ -52,20 +52,32 @@
 // console.log('file is created');
 // })
 
-  //p5.
-  const { isUtf8 } = require('buffer');
-const fs=require('fs');
-  const path1='path1.txt';
-  const data1={
-    firstName:'Abishek',
-    Hobby: 'Coding',
-  }
-  fs.readFile(path1,'utf-8',(err,data1)=>{
-    if(err) throw err;
-    console.log(data1);
-  });
-  console.log('hello ')
 
+  //p5.
+
+// const fs=require('fs');
+//   const path1='path1.txt';
+//   const data1={
+//     firstName:'Abishek',
+//     Hobby: 'Coding',
+//   }
+//   fs.readFile(path1,'utf-8',(err,data1)=>{
+//     if(err) throw err;
+//     console.log(data1);
+//   });
+//   console.log('hello ')
+
+//p6.
+// const fs=require('fs');
+// const folder='Abishek';
+// const file=`${folder}/kunwar.txt`;
+// fs.mkdir(folder,{recursive:true},(err)=>{
+//   if (err) throw err;
+//   fs.writeFile(file,"whats up",(err)=>{
+//     if (err) throw err;
+//     console.log('file is created')
+//   });
+// })
 
 
 
